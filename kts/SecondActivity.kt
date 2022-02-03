@@ -11,8 +11,6 @@ class SecondActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_desc)
         
-        supportActionBar?.setTitle("Imam 5190411202")
-        
         val name = findViewById<TextView>(R.id.nameSelected)
         val dob = findViewById<TextView>(R.id.dateSelected)
         val desc = findViewById<TextView>(R.id.descSelected)
